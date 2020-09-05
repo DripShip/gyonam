@@ -2,6 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <style>
+      body {
+        background-color: lightblue;
+        font-size: 20px;
+        width: 1200px;
+        margin: 100px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h1 {
+        color: white;
+        text-align: center;
+        font-size: 50px;
+      }
+      h2, h3, h4, h5, h6 {
+        margin-top: 50px;
+        margin-bottom: 40px;
+      }
+      dialog {
+        color: white;
+      }
+      p {
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+      }
+    </style>
     <title>교남 - 테스트 페이지</title>
   </head>
   <body>
@@ -16,11 +49,18 @@
     </ul>
     <h3><a href="testpage2.html">테스트 페이지</a>에 오신 것을 환영합니다.</h3>
     <p>
+      이 웹페이지는 1920X1080px 이상의 픽셀을 가진 모니터를 가진 PC 브라우저에 최적화 되었습니다.
+    </p>
+    <p>
+      구닥다리같은 디자인을 넣었습니다.<br>
+      빼는 게 나은 것 같네요.
+    </p>
+    <p>
       이제 브라우저 내장 뒤로 가기 기능을 제외하면 당신이 이전 페이지로 돌아갈 방법은 없습니다.<br>
       들어올 때는 마음대로였겠지만 나갈 때는 아니라는 누군가의 말이 떠오르지 않나요?
     </p>
     <p>
-      <dialog open><a href="https://www.yna.co.kr/"><b>연합 뉴스</b></a></dialog>
+      <a href="https://www.yna.co.kr/"><b>연합 뉴스</b></a>
     </p>
     <p>
       <abbr title="league of legend"><b>리그 오브 레전드</b></abbr>는 대한민국에서 최고로 인기 있는 게임입니다.
@@ -38,12 +78,12 @@
         만약 어떠한 페이지가 당신의 컴퓨터에 켜졌다면 당신의 컴퓨터는 바이러스에 감염된 것입니다.<br>
       </p>
     </details>
-    <audio controls>
+    <audio controls class="center">
       <source src="test.mp3" type="audio/MP3">
       당신의 브라우저는 이 파일 형식을 지원하지 않습니다.
     </audio>
     <figure>
-      <img src="test.jpg" width="80%">
+      <img src="test.jpg" width="80%" class="center">
       <figcaption><cite>천안문 사진</cite>, 저작권 없는 이미지</figcaption>
     </figure>
     <details>
